@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quick Trivia</title>
+	<link href="./style.css" type="text/css" rel="stylesheet">
+	<link href="./end.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+</body>
+	<div class="container">
+		<div id="end" class="flex-column flex-center">
+			<h1 id="end-score-text">You scored:</h1>
+			<h1 id="end-score">0</h1>
+			<h2 id="high-score">High Score: 0</h2>
+			<form class="flex-column flex-center">
+				<input type="text" id="username" name="username" placeholder="username">
+				<button type="submit" id="submit-button" class="btn" onclick="saveScore(event)">Save</button>
+			</form>
+			<a class="btn" href="./game.html">Play Again</a>
+			<a class="btn" href="./index.html">Home</a>
+		</div>
+	</div>
+	<script src="end.js"></script>
+</html>
